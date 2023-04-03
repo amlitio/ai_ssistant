@@ -7,6 +7,7 @@ from flask_limiter import Limiter
 from flask_sqlalchemy import SQLAlchemy
 from cryptography.fernet import Fernet
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
+from config import OPENAI_API_KEY
 
 # Initialize OpenAI API key
 openai.api_key = 'INSERT_OPENAI_API_KEY_HERE'
