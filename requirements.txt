@@ -4,5 +4,5 @@ openai==0.27.0
 gunicorn==20.1.0
 Flask-Limiter
 cryptography
-itsdangerous
+itsdangerous==2.0.1
 config
